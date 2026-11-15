@@ -2,14 +2,9 @@
 
 Static site with Privacy Policy, Terms of Use and Support pages in English (root) and Turkish (`/tr`). No build step, no tracking, no cookies.
 
-## Before publishing
+## Contact
 
-1. Replace every `CONTACT_EMAIL` with your public support address (12 places in 6 pages) and drop the yellow placeholder highlight:
-   ```bash
-   grep -rl CONTACT_EMAIL . | xargs sed -i '' -e 's/CONTACT_EMAIL/support@your-domain.com/g' -e 's/ class="placeholder"//g'
-   ```
-   (On Linux use `sed -i` without `''`.)
-2. Check that **ELApps** (developer name) and **Republic of Türkiye** (governing law) are correct for you.
+The support address used on all pages is **elappstest@gmail.com**. To change it, replace it in all six pages.
 
 ## Publish on GitHub Pages
 
